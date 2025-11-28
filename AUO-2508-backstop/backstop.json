@@ -1,0 +1,93 @@
+{
+  "id": "au-industry-tag-validation",
+  "viewports": [
+    {
+      "label": "desktop",
+      "width": 1280,
+      "height": 800
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",
+  "scenarios": [
+    {
+      "label": "Article - M&E Industry Tag",
+      "url": "https://pr-1020-next.au-uw2-dev.autodesk.com/autodesk-university/article/Designing-Sustainable-Products-Procedural-Modeling-2022",
+      "selectors": [".related-tags"],
+      "readySelector": ".related-tags",
+      "delay": 3000,
+      "misMatchThreshold": 0.5,
+      "requireSameDimensions": false
+    },
+    {
+      "label": "Theater Talk - M&E Industry Tag",
+      "url": "https://pr-1020-next.au-uw2-dev.autodesk.com/autodesk-university/article/artists-and-technology-in-harmony-2023",
+      "selectors": [".related-tags"],
+      "readySelector": ".related-tags",
+      "delay": 3000,
+      "misMatchThreshold": 0.5,
+      "requireSameDimensions": false
+    },
+    {
+      "label": "Article - MFG Industry Tag",
+      "url": "https://pr-1020-next.au-uw2-dev.autodesk.com/autodesk-university/article/the-data-revolution-powerful-workflows-that-unlock-more-agile-collaboration",
+      "selectors": [".related-tags"],
+      "readySelector": ".related-tags",
+      "delay": 3000,
+      "misMatchThreshold": 0.5,
+      "requireSameDimensions": false
+    },
+    {
+      "label": "Theater Talk - MFG Industry Tag",
+      "url": "https://pr-1020-next.au-uw2-dev.autodesk.com/autodesk-university/article/Designing-Sustainable-Products-Procedural-Modeling-2022",
+      "selectors": [".related-tags"],
+      "readySelector": ".related-tags",
+      "delay": 3000,
+      "misMatchThreshold": 0.5,
+      "requireSameDimensions": false
+    },
+    {
+      "label": "Search - Industry Subsegment Facet",
+      "url": "https://pr-1020-next.au-uw2-dev.autodesk.com/autodesk-university/search",
+      "selectors": [".au-search-facets__facet--industries"],
+      "readySelector": ".au-search-facets__facet--industries",
+      "delay": 3000,
+      "misMatchThreshold": 0.5,
+      "requireSameDimensions": false
+    },
+    {
+      "label": "Search Results - Media & Entertainment",
+      "url": "https://pr-1020-next.au-uw2-dev.autodesk.com/autodesk-university/search?industrySubSegment=Media%20%26%20Entertainment",
+      "selectors": ["document"],
+      "readySelector": ".search-results",
+      "delay": 4000,
+      "misMatchThreshold": 0.5,
+      "requireSameDimensions": false
+    },
+    {
+      "label": "Search Results - Product Design & Manufacturing",
+      "url": "https://pr-1020-next.au-uw2-dev.autodesk.com/autodesk-university/search?industrySubSegment=Product%20Design%20%26%20Manufacturing",
+      "selectors": ["document"],
+      "readySelector": ".search-results",
+      "delay": 4000,
+      "misMatchThreshold": 0.5,
+      "requireSameDimensions": false
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}

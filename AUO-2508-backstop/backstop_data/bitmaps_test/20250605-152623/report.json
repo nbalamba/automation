@@ -1,0 +1,172 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\au-industry-tag-validation_Theater_Talk_-_MFG_Industry_Tag_0_related-tags_0_desktop.png",
+        "test": "..\\bitmaps_test\\20250605-152623\\au-industry-tag-validation_Theater_Talk_-_MFG_Industry_Tag_0_related-tags_0_desktop.png",
+        "selector": ".related-tags",
+        "fileName": "au-industry-tag-validation_Theater_Talk_-_MFG_Industry_Tag_0_related-tags_0_desktop.png",
+        "label": "Theater Talk - MFG Industry Tag",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://pr-1020-next.au-uw2-dev.autodesk.com/autodesk-university/theater-talk/how-technology-is-enabling-innovative-business-models-and-transforming-the-design-and-make-industry",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\au-industry-tag-validation_Article_-_MFG_Industry_Tag_0_related-tags_0_desktop.png",
+        "test": "..\\bitmaps_test\\20250605-152623\\au-industry-tag-validation_Article_-_MFG_Industry_Tag_0_related-tags_0_desktop.png",
+        "selector": ".related-tags",
+        "fileName": "au-industry-tag-validation_Article_-_MFG_Industry_Tag_0_related-tags_0_desktop.png",
+        "label": "Article - MFG Industry Tag",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://pr-1020-next.au-uw2-dev.autodesk.com/autodesk-university/articles/how-technology-enabling-innovative-business-models-transforming-design-and-make-industry",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\au-industry-tag-validation_Theater_Talk_-_ME_Industry_Tag_0_related-tags_0_desktop.png",
+        "test": "..\\bitmaps_test\\20250605-152623\\au-industry-tag-validation_Theater_Talk_-_ME_Industry_Tag_0_related-tags_0_desktop.png",
+        "selector": ".related-tags",
+        "fileName": "au-industry-tag-validation_Theater_Talk_-_ME_Industry_Tag_0_related-tags_0_desktop.png",
+        "label": "Theater Talk - M&E Industry Tag",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://pr-1020-next.au-uw2-dev.autodesk.com/autodesk-university/theater-talk/media-and-entertainment-industry-perspectives-how-generative-ai-transforming-work",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\au-industry-tag-validation_Article_-_ME_Industry_Tag_0_related-tags_0_desktop.png",
+        "test": "..\\bitmaps_test\\20250605-152623\\au-industry-tag-validation_Article_-_ME_Industry_Tag_0_related-tags_0_desktop.png",
+        "selector": ".related-tags",
+        "fileName": "au-industry-tag-validation_Article_-_ME_Industry_Tag_0_related-tags_0_desktop.png",
+        "label": "Article - M&E Industry Tag",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://pr-1020-next.au-uw2-dev.autodesk.com/autodesk-university/articles/media-and-entertainment-industry-perspectives-how-generative-ai-transforming-work",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\au-industry-tag-validation_Search_-_Industry_Subsegment_Facet_0_au-search-facets__facet--industries_0_desktop.png",
+        "test": "..\\bitmaps_test\\20250605-152623\\au-industry-tag-validation_Search_-_Industry_Subsegment_Facet_0_au-search-facets__facet--industries_0_desktop.png",
+        "selector": ".au-search-facets__facet--industries",
+        "fileName": "au-industry-tag-validation_Search_-_Industry_Subsegment_Facet_0_au-search-facets__facet--industries_0_desktop.png",
+        "label": "Search - Industry Subsegment Facet",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://pr-1020-next.au-uw2-dev.autodesk.com/autodesk-university/search",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\au-industry-tag-validation_Search_Results_-_Media__Entertainment_0_document_0_desktop.png",
+        "test": "..\\bitmaps_test\\20250605-152623\\au-industry-tag-validation_Search_Results_-_Media__Entertainment_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "au-industry-tag-validation_Search_Results_-_Media__Entertainment_0_document_0_desktop.png",
+        "label": "Search Results - Media & Entertainment",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.5,
+        "url": "https://pr-1020-next.au-uw2-dev.autodesk.com/autodesk-university/search?industrySubSegment=Media%20%26%20Entertainment",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -54
+          },
+          "rawMisMatchPercentage": 0.4299591091511503,
+          "misMatchPercentage": "0.43",
+          "analysisTime": 434
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\au-industry-tag-validation_Search_Results_-_Product_Design__Manufacturing_0_document_0_desktop.png",
+        "test": "..\\bitmaps_test\\20250605-152623\\au-industry-tag-validation_Search_Results_-_Product_Design__Manufacturing_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "au-industry-tag-validation_Search_Results_-_Product_Design__Manufacturing_0_document_0_desktop.png",
+        "label": "Search Results - Product Design & Manufacturing",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 0.5,
+        "url": "https://pr-1020-next.au-uw2-dev.autodesk.com/autodesk-university/search?industrySubSegment=Product%20Design%20%26%20Manufacturing",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -8624
+          },
+          "rawMisMatchPercentage": 9.362881492370152,
+          "misMatchPercentage": "9.36",
+          "analysisTime": 315
+        },
+        "diffImage": "..\\bitmaps_test\\20250605-152623\\failed_diff_au-industry-tag-validation_Search_Results_-_Product_Design__Manufacturing_0_document_0_desktop.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "au-industry-tag-validation"
+}

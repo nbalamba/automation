@@ -1,0 +1,14 @@
+{
+  "name": "auo-2508",
+  "version": "1.0.0",
+  "description": "Cypress test for AU Industry tags",
+  "main": "AUO-2508.cy.js",
+  "scripts": {
+    "test:auo2508": "cypress run --spec AUO-2508.cy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
